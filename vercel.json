@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/send.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/send",
+      "schedule": "*/1 * * * *"
+    }
+  ]
+}
